@@ -1,0 +1,23 @@
+.display {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px;
+  background: black;
+}
+
+.card {
+  background: #1a0000;
+  color: red;
+  padding: 40px;
+  border: 1px solid red;
+  width: 150px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: red;
+  color: black;
+}
